@@ -25,4 +25,6 @@ def calculator():
             raise ValueError("Cannot divide by zero.")
         return a / b
     
+    def square_root(number):
+     return math.sqrt(number)
             
