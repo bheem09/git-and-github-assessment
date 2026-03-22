@@ -16,4 +16,4 @@ def calculator():
     if choice == '5':
         num = float(input("Enter number: "))
         result = square_root(num)
-        print("Result:", result")
+        print("Result:", result)
