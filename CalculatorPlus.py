@@ -17,3 +17,15 @@ def calculator():
         num = float(input("Enter number: "))
         result = square_root(num)
         print("Result:", result)
+
+class Calculator:
+
+    def divide(self, a, b):
+        if b == 0:
+            raise ValueError("Cannot divide by zero.")
+        return a / b
+        
+   def square_root(self, number):
+    if number < 0:
+        raise ValueError("Cannot calculate square root of a negative number.")
+    return math.sqrt(number)  
