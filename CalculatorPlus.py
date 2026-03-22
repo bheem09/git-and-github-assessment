@@ -16,4 +16,13 @@ def calculator():
     if choice == '5':
         num = float(input("Enter number: "))
         result = square_root(num)
-        print("Result:", result")
+        print("Result:", result)
+
+        class Calculator:
+
+    def divide(self, a, b):
+        if b == 0:
+            raise ValueError("Cannot divide by zero.")
+        return a / b
+    
+            
